@@ -18,6 +18,8 @@ public:
 
 private:
 	QMap<Mesh *, MeshChange *> m_aMeshChanges; 
+	
+	QVector<MeshRenderer *> m_aRenderers;
 };
 
 #endif //MUDBOXPLUGIN_EXAMPLE_SCULPTBRUSH1  
